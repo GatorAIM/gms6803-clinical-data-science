@@ -15,6 +15,7 @@ format:
     # number-sections: true
     code-fold: true
     embed-resources: true
+    pdf-standard: ua-2
 
 
 
