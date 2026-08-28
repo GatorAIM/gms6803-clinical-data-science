@@ -1,0 +1,34 @@
+---
+title: "GMS 6803 Data Science for Clinical Research"
+subtitle: "Fall 2026"
+listing:
+   - id: materials
+     contents:
+       - "week-*/*.qmd"
+      #  - "documents/*.qmd"
+      #  - "documents/*.html"
+     type: default
+     sort: "date desc"
+     categories: true
+     feed: true
+     fields: [title, subtitle, author, date, description, categories, reading-time]
+     date-format: "MMMM D, YYYY"
+
+navbar: false
+
+page-layout: full
+include-back-link: false
+toc-location: right
+toc: true
+brand: ../../brand/_brand.yml
+format:
+  html:
+    theme:
+      light: ["../../html/uf.scss","brand"]
+      dark: ["../../html/uf.scss","brand"]
+---
+
+## Course Materials
+
+::: {#materials}
+:::

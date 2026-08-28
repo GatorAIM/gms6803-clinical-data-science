@@ -1,0 +1,13 @@
+---
+title: "Example course note"
+subtitle: "GMS 6803"
+author: "Piyush Chaudhari"
+date: 2026-08-27
+description: "Template for an HTML course document. Copy this file, change the front matter, and it shows up on the course page as a post card."
+categories: [notes]
+# draft: true
+---
+
+This is a regular HTML document (not a slide deck). Anything in `documents/` that has a `title`, `date`, and `description` will appear in the listing on the course home page alongside the weekly slides, sorted by date.
+
+Delete or replace this file with real content.

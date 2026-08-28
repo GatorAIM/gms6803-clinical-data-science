@@ -1,0 +1,161 @@
+---
+title: "Introduction to i2b2"
+subtitle: "Fall 2026"
+author: "Piyush Chaudhari | Qian Li"
+date: '2026-08-28'
+description: "i2b2 Introduction, Features star schema, UF Health i2b2 Data Availability, Logging in and basic overview"
+categories: ["Slides", "Week 2"]
+format:
+    revealjs:
+        axe:
+           output: console
+        slide-number: true
+        chalkboard: 
+            buttons: true
+        preview-links: auto
+        logo: ../../../photos/PC_UF.png
+        theme: ../../../html/uf.scss
+#            light: ["../../html/dfb.scss","brand"]
+#            dark: ["../../html/dfb_dark.scss","brand"]
+        #css: styles.css
+footer: "[GMS 6803: Data Science for Clinical Research](https://github.com/GatorAIM/gms6803-clinical-data-science)"
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .quarto-title-author-name {
+        color: #FFFFFF;
+      }
+
+      #title-slide .quarto-title-affiliation {
+        color: #FFFFFF;
+      }
+      #title-slide .date {
+        color: #FFFFFF;
+      }
+
+            #title-slide .subtitle {
+        color: #FFFFFF;
+      }
+      </style>
+editor: 
+  markdown: 
+    wrap: 72
+toc-location: right
+toc: false
+brand: ../../../brand/_brand.yml
+# revealjs-plugins:
+#   - editable
+# filters:
+#   - editable
+---
+
+## i2b2
+
+:::::::: columns
+::::::: center
+:::: {.column width="60%"}
+::: {style="font-size: 80%;"}
+<!-- <img src="https://hbpmedical.github.io/specifications/images/i2b2_schema.gif" style="width:100%; height:auto;"> -->
+
+<center>
+
+![Fig 1. i2b2 Star
+Schema](https://www.documentation-snds.health-data-hub.fr/assets/img/i2b2_fig_2.7b016acc.png){.lightbox
+.r-stretch group="my-gallery" width="98%" height="auto"}
+
+</center>
+:::
+::::
+
+:::: {.column width="40%"}
+::: {style="font-size: 75%;"}
+- **i2b2** is **I**nformatics for **I**ntegrating **B**iology & the
+  **B**edside Cohort Discovery System
+- i2b2 is an NIH-funded National Center for Biomedical Computing (NCBC)
+  based at Partners’ HealthCare System in Boston
+- Enables investigators to **identify potential study cohorts** using
+  clinical data resources
+- Intended for protocol development for grant or IRB submission
+- Provides access to curated data through a web client
+- Returns **only patient counts**
+:::
+::::
+:::::::
+::::::::
+
+------------------------------------------------------------------------
+
+<iframe src="https://i2b2.org/features/" width="100%" height="85%" style="border:1px solid #f67505;">
+
+</iframe>
+
+::: {style="font-size: 60%;"}
+<center>[i2b2 Community Webpage](https://i2b2.org/features/)</center>
+:::
+
+------------------------------------------------------------------------
+
+## Feasibility and Cohort Discovery
+
+- **How many** men with hypertension diagnoses had at least one
+  inpatient encounter between January and December 2018?​
+- **How many** women ages 45-65 had successful breast cancer surgery?​
+- **How many** children were diagnosed with diabetes and had Hemoglobin
+  A1c greater than 7% in the same financial encounter?​
+
+------------------------------------------------------------------------
+
+## Data Availability in i2b2
+
+- **i2b2 data guide**​
+  - Go to UF Health IDR i2b2 training page
+    [`here`](https://idr.ufhealth.org/research-services/feasibility-cohort-discovery/uf-health-i2b2-training-tools/)​
+
+  - Click on
+    [`The i2b2 Data Guide`](https://idr.ufhealth.org/wordpress/files/2021/09/DataGuide_2021_August.pdf)
+- Data is refreshed quarterly, starting June 2011​
+- Data is represented as closely as possible to the original source​ in
+  the i2b2 Common Data Model
+
+------------------------------------------------------------------------
+
+## i2b2 Client Demo
+
+<iframe src="https://i2b2.idr.ufhealth.org" width="100%" height="75%" style="border:1px solid #f67505;">
+
+</iframe>
+
+::: {style="font-size: 60%;"}
+<center>[UF Health i2b2
+Webclient](https://i2b2.idr.ufhealth.org)</center>
+:::
+
+```{=html}
+<!-- ## i2b2
+
+:::::::: columns
+::::::: center
+:::: {.column width="50%"}
+::: {style="font-size: 80%;"}
+1.  Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
+2.  Familial Breast Cancer (FBC)
+3.  Familial Hypercholesterolemia (FH)
+4.  Hypertrophic Cardiomyopathy (HCM)
+5.  Adult Hypophosphatasia (HPP)
+:::
+::::
+
+:::: {.column width="50%"}
+::: {style="font-size: 80%;"}
+6.  Long QT Syndrome (LQTS)
+7.  Lynch Syndrome (LS)
+8.  Monogenic Diabetes (MD)
+9.  Polycystic Kidney Disease (PKD)
+10. von Willebrand Disease (VWD)
+:::
+::::
+:::::::
+::::::::
+
+--- -->
+```

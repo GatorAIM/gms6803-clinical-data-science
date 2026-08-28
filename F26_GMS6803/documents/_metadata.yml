@@ -1,0 +1,8 @@
+# Shared front matter for non-slide course documents (notes, handouts, guides).
+# These render as regular HTML pages using the site theme, and are picked up by
+# the listing on ../index.qmd.
+format:
+  html:
+    toc: true
+    toc-location: right
+    page-layout: full

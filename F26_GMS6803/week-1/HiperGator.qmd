@@ -1,0 +1,72 @@
+---
+title: "Course Resources"
+author: "Piyush Chaudhari"
+date: '2026-08-24'
+description: "Useful traings and resources for GMS 6803 Data Science for Clinical Research"
+categories: [Resources, "Week 1"]
+navbar: false
+# format:
+#     revealjs:
+#         axe:
+#            output: console
+#         slide-number: true
+#         chalkboard: 
+#             buttons: true
+#         preview-links: auto
+#         logo: ../../../photos/PC_UF.png
+#         theme: ../../../html/uf.scss
+# #            light: ["../../html/dfb.scss","brand"]
+# #            dark: ["../../html/dfb_dark.scss","brand"]
+#         #css: styles.css
+# footer: "[GMS 6803: Data Science for Clinical Research](https://github.com/GatorAIM/gms6803-clinical-data-science)"
+# include-in-header:
+#   - text: |
+#       <style>
+#       #title-slide .quarto-title-author-name {
+#         color: #FFFFFF;
+#       }
+
+#       #title-slide .quarto-title-affiliation {
+#         color: #FFFFFF;
+#       }
+#       #title-slide .date {
+#         color: #FFFFFF;
+#       }
+
+#             #title-slide .subtitle {
+#         color: #FFFFFF;
+#       }
+#       </style>
+# editor: 
+#   markdown: 
+#     wrap: 72
+# toc-location: right
+# toc: false
+brand: ../../../brand/_brand.yml
+# revealjs-plugins:
+#   - editable
+# filters:
+#   - editable
+---
+
+## Course GitHub Repository
+
+The teaching team has created a [GitHub repository](https://github.com/GatorAIM/gms6803-clinical-data-science) for the course to share course materials, sample scripts, and other resources
+
+## Training Resources from UF Research Computing
+
+- [HiperGator New User Training](https://docs.rc.ufl.edu/training/new_user_training/)
+- Once the New User Training is completed, students are recommended to check out additional trainings on this page - [HiperGator Training](https://docs.rc.ufl.edu/training/HiPerGator_training/)
+- UF Research Computing also offers [Practicum AI](https://practicumai.org) training module
+
+
+## Questions or Concerns
+- In case you have any questions - 
+  - Post on Canvas Discussion Panel
+  - Post on [GitHub issues](https://github.com/GatorAIM/gms6803-clinical-data-science)
+  - Office Hours
+    - Dr. Mei Liu (Thursday 9-11 AM or by appointment)
+    - Dr. Yi Guo (Monday 2-4 PM or by appointment)
+  <!-- - E-Mail Piyush ([piyushchaudhari@ufl.edu](mailto:piyushchaudhari@ufl.edu)) or Qi([qixu@ufl.edu](mailto:qixu@ufl.edu)) -->
+
+
