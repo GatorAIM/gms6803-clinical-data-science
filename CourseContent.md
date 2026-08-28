@@ -1,6 +1,8 @@
+# GMS 6803 : Data Science for Clinical Research
+
 ## Course Page
 
-[GMS 6803 - Fall 2026](https://pc-piyush.github.io/teaching/F26_GMS6803/)
+- [GMS 6803 - Fall 2026](https://pc-piyush.github.io/teaching/F26_GMS6803/)
 
 ## Week-2 Materials and Resources
 
