@@ -1,0 +1,13 @@
+## Course Page
+
+[GMS 6803 - Fall 2026](https://pc-piyush.github.io/teaching/F26_GMS6803/)
+
+## Week-2 Material and Resources
+
+- [Introduction to i2b2](https://pc-piyush.github.io/teaching/F26_GMS6803/week-2/i2b2.html)
+- [Electronic Health Records](https://pc-piyush.github.io/teaching/F26_GMS6803/week-2/EHR.html)
+- [Hipergator Setup](https://pc-piyush.github.io/teaching/F26_GMS6803/week-2/HipergatorSetup.html)
+
+## Week-1 Material and Resources
+
+- [Course Resources](https://pc-piyush.github.io/teaching/F26_GMS6803/week-1/Resources.html)
