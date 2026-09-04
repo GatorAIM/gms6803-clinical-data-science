@@ -1,0 +1,72 @@
+---
+title: "GMS 6803 : Data Science for Clinical Research"
+subtitle: "Assignment-1"
+# author: "PC"
+date: today
+# brand: brand/_brand.yml
+
+
+format:
+
+
+  pdf:
+    # toc: true
+    toc-depth: 4
+    # number-sections: true
+    code-fold: true
+    embed-resources: true
+    pdf-standard: ua-2
+
+
+
+execute:
+  eval: false
+---
+
+
+In this assignment, you will use i2b2 for a basic exploratory analysis by constructing queries, and develop a simple computational phenotype.
+
+**Goals** 
+
+    - Get familiar with i2b2 and its query interface
+    - Learn how to construct queries and extract data from i2b2
+    - Understand how clinical definitions can be translated to computer-readable queries
+    - Explaining the process to professionals without a technical background
+
+### 1. Choose a clinical interest area and a specific phenotype to explore. For example, you might choose diabetes, hypertension, asthma, any neoplasms of interest, rare diseases, etc. Clearly define the phenotype you are interested in studying.
+
+You don't have to limit it to diagnosis only, you can choose elements from medications, procedures, and other clinical data.
+
+### 2. Using i2b2, construct a query to identify patients who meet the criteria for your chosen phenotype. Document the steps you took to create the query, including any inclusion or exclusion criteria you applied. 
+
+It is recommended that you construct your query one step at a time, name and run it, move it to a workspace, and then build on it to add additional criteria. This will help you keep track of your work and make it easier to troubleshoot if needed.
+
+### 3. Once you have constructed your final query, run it in i2b2 to obtain the results. Record the number of patients identified by your query and any relevant statistics (e.g., age distribution, gender distribution, etc.) that you can extract from the results.
+
+### 4. Given UF Health currently doesn't output chart representations of the distribution results, try and use the data you obtained in the results to create a chart or graph using Python libraries.
+
+You can use [Pandas](https://pandas.pydata.org) and [Matplotlib](https://matplotlib.org) or [Seaborn](https://seaborn.pydata.org) to create visualizations. 
+
+- Document the steps you took to create the chart, including creating a data frame, any cleaning needed and the code used to generate the chart.
+
+### 5. Write a brief summary on how you would explain your findings to a non-technical audience, such as clinicians or hospital administrators. Focus on the clinical relevance of your findings and how they might inform patient care or research.
+
+## Deliverables (Total: 100 points)
+
+- Clearly name the queries and refer them for each step **(15 points)**
+
+- Create a Workspace in i2b2 and save your queries there, so they can be refered back when needed **(15 points)**
+
+- Export the PDF report from i2b2 for your final query and include it in your submission **(30 points)**
+
+- Include the chart or graph you created in your submission. **(15 points)**
+
+- Provide a written summary of your findings and their clinical relevance. **(25 points)**
+
+## Use of Generative LLM Tools
+
+- It is recommended that you don't use any generative LLM tools for this assignment, given it is conceptual in nature and is designed to help you understand the process of constructing queries and extracting data from i2b2.
+
+- However, if you do use any generative LLM tools, you are responsible for understanding, verifying, and citing everything an LLM generates.
+
+- Everything human-facing should be human-generated i.e. your final submission cannot include any LLM generated content
