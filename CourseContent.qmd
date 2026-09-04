@@ -5,17 +5,24 @@ title: "GMS 6803 : Data Science for Clinical Research"
 date: today
 # brand: brand/_brand.yml
 
-
-format:
-
-
-  pdf:
-    # toc: true
+format: 
+  html:
+    toc: true
     toc-depth: 4
-    # number-sections: true
+    number-sections: true
     code-fold: true
     embed-resources: true
-    pdf-standard: ua-2
+
+# format:
+
+
+#   pdf:
+#     # toc: true
+#     toc-depth: 4
+#     # number-sections: true
+#     code-fold: true
+#     embed-resources: true
+#     pdf-standard: ua-2
 
 
 
