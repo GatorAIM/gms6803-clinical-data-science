@@ -4,6 +4,10 @@
 
 - [GMS 6803 - Fall 2026](https://pc-piyush.github.io/teaching/F26_GMS6803/)
 
+## Week-6
+
+- [SQL](https://pc-piyush.github.io/teaching/F26_GMS6803/week-6/sql-basics.html)
+
 ## Week-4
 
 - [OMOP](https://pc-piyush.github.io/teaching/F26_GMS6803/week-4/OMOP.html)
